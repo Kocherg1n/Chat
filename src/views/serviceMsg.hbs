@@ -1,0 +1,9 @@
+<div class="message__container">
+    <div class="message__block">
+        {{#if joinChat}}
+        <span class="message__text">{{nickName}} ({{name}}) присоединился к беседе</span>
+        {{else}}
+        <span class="message__text">{{nickName}} ({{name}}) вышел из беседы</span>
+        {{/if}}
+    </div>
+</div>
